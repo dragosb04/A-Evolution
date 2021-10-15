@@ -1,4 +1,4 @@
-<div class="col-12 px-0 mb-3 d-none d-lg-block post-box d-xl-block d-md-block carousel-image evo-top-rounded evo-bottom-rounded">
+<div class="col-12 px-1 mb-3 d-none d-lg-block post-box d-xl-block d-md-block carousel-image evo-top-rounded evo-bottom-rounded">
     <div id="carouselExampleIndicators" class="carousel social slide d-block" data-ride="carousel" data-interval="5000">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

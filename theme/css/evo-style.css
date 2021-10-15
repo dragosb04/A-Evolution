@@ -465,6 +465,11 @@ body {
     border-top-right-radius: 9px !important;
 }
 
+.evo-bottom-rounded-back {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
 .post-box {
     background-color: #08091d;
 }
@@ -492,6 +497,12 @@ body {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     font-size: 1rem;
+}
+
+.back-text {
+    background: url('https://cdn.discordapp.com/attachments/884134436684328960/898622194928713749/imagine_serii_terminate.png') no-repeat right;
+    width: 100%;
+    height: 100%;
 }
 
 .post-descr {
@@ -568,6 +579,15 @@ a:hover {
     object-fit: cover;
 }
 
+.title-evo {
+    font-size: 3rem;
+    color: white;
+}
+
+.anime-descr {
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c35b0e102808543.602f20eab5024.png');
+}
+
 .rand-descr {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -582,10 +602,22 @@ a:hover {
     font-size: 0.9rem;
 }
 
+.page-name {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 @supports (backdrop-filter: opacity(1)) {
     .no-support {
         display: none;
     }
+}
+
+.bg-search-bar {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.bg-search-bar-light {
+    background-color: rgba(255, 255, 255, 0.479);
 }
 
 .blur {

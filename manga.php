@@ -1,16 +1,16 @@
-<?php /* Template Name: Anime */
+<?php /* Template Name: Manga */
 get_header();
 wp_head();
 b4st_main_before();
 error_reporting(E_ERROR | E_PARSE);
 ?>
-<main id="site-main" class="page page-template anime text-light">
+<main id="site-main" class="page page-template manga text-light">
     <div class="container mb-5 mt-2">
         <div class="col-12 px-0">
             <div class="row">
                 <div class="up anime-descr col-12 px-5 my-3 pt-5 pb-3 evo-bottom-rounded evo-top-rounded text-center">
                     <div class="title-evo page-name text-evo pb-3"><b> <?php the_title(); ?></b>
-                        <br><h5 class="up-text">Vă invităm să aruncați o privire peste seriile anime pe care vi le putem oferi!</h5>
+                        <br><h5>Lasă-te purtat de curiozitate și afundă-te în lecturarea seriilor noastre!</h5>
                     </div>
                     <h6 class="up-text text-left"><b> Caută serie după nume ↴</b></h6>
                     <div class="input-group bg-search-bar evo-bottom-rounded evo-top-rounded">
@@ -38,10 +38,10 @@ error_reporting(E_ERROR | E_PARSE);
                         $image = 'https://shinobi-am.com/wp-content/uploads/2021/08/load.jpg';
                     }
                     $check = $some->cat_name;
-                    $car = get_category_parents($some)[0]; ?>
-
+                    $car = get_category_parents($some)[0]; 
+                    ?>
                 <?php
-                    if ($car == 'A') {
+                    if ($car == 'M') {
                         $type_name = "Anime";
                         $titlu = get_field('titlu_alternativ', $some->taxonomy . '_' . $some->term_id);
                         $status = get_field('status', $some->taxonomy . '_' . $some->term_id);
@@ -89,7 +89,7 @@ error_reporting(E_ERROR | E_PARSE);
                     $car = get_category_parents($some)[0]; ?>
 
                 <?php
-                    if ($car == 'A') {
+                    if ($car == 'M') {
                         $type_name = "Anime";
                         $titlu = get_field('titlu_alternativ', $some->taxonomy . '_' . $some->term_id);
                         $status = get_field('status', $some->taxonomy . '_' . $some->term_id);

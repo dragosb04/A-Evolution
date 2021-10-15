@@ -19,7 +19,7 @@
                 $some = $category;
                 $check = $some->cat_name;
                 $image = get_field('cover', $some->taxonomy . '_' . $some->term_id);
-                if ($check !== 'Anime' && $check !== 'Serii Anime Terminate' && $check !== 'Serie Anime în curs de traducere') {
+                if ($check !== 'Anime' && $check !== 'Serii Anime Terminate' && $check !== 'Serii Anime în curs de traducere') {
                     echo
                     '<div class = "col-4 p-2 text-center">
                   <a href = "' . get_category_link($category->term_id) . '">
@@ -48,7 +48,6 @@
         );
         $categories = get_categories($args);
         shuffle($categories);
-        $categories = array_slice($categories, 0, 3, false);
         $ok = 0;
         foreach ($categories as $category) {
             if ($ok != 3) {

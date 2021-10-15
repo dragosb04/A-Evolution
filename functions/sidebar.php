@@ -1500,27 +1500,27 @@
 		<li data-target="#recruit" data-slide-to="2"></li>
 		<li data-target="#recruit" data-slide-to="3"></li>
 	</ol>
-	<div class="carousel-inner">
-		<div class="carousel-item active  evo-bottom-rounded slider-photo">
-			<img class="evo-bottom-rounded evo-top-rounded" src="https://animetify.com/wp-content/uploads/2021/04/Japanese-Anime-Demon-Slayer-Kimetsu-no-Yaiba-Retro-Posters-Kraft-Paper-and-Prints-Home-Room-Bar-724x1024.jpg" alt="1">
+	<div class="carousel-inner evo-bottom-rounded evo-top-rounded">
+		<div class="carousel-item active">
+			<img class="evo-bottom-rounded evo-top-rounded" src="https://cdn.discordapp.com/attachments/884134436684328960/898624002866683974/recrutaretraducatori.png" alt="1" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
 				<h4><a href="https://a-evolution.ro/recrutare-traduc-tori-t28.html" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Traducători</b></a></h4>
 			</div>
 		</div>
-		<div class="carousel-item slider-photo">
-			<img class="evo-bottom-rounded evo-top-rounded" src="https://animetify.com/wp-content/uploads/2021/04/Japanese-Comic-Movie-Demon-Slayer-Mugen-Train-Anime-Poster-Kimetsu-no-Yaiba-Mugen-Ressha-hen-Art.jpg" alt="2">
+		<div class="carousel-item">
+			<img class="evo-bottom-rounded evo-top-rounded" src="https://cdn.discordapp.com/attachments/884134436684328960/898636286829690891/recrutareverificatori.png" alt="2" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
 				<h4><a href="https://a-evolution.ro/recrutare-verificatori-t29.html" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Verificatori</b></a></h4>
 			</div>
 		</div>
-		<div class="carousel-item slider-photo">
-			<img class="evo-bottom-rounded evo-top-rounded" src="https://animetify.com/wp-content/uploads/2021/04/New-Kakegurui-Anime-Poster-Custom-Vintage-Poster-Art-Home-Room-Decoration-Kraft-Paper-Wall-Poster-Prints-724x1024.jpg" class="d-block w-100" alt="3">
+		<div class="carousel-item">
+			<img class="evo-bottom-rounded evo-top-rounded" src="https://cdn.discordapp.com/attachments/884134436684328960/898636299861381150/recrutareencoderi.png" class="d-block w-100" alt="3" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
 				<h4><a href="https://a-evolution.ro/recrutare-encoderi-anime-t30.html" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Encoderi</b></a></h4>
 			</div>
 		</div>
-		<div class="carousel-item slider-photo">
-			<img class="evo-bottom-rounded evo-top-rounded" src="https://animetify.com/wp-content/uploads/2021/04/Japanese-Comic-Movie-Demon-Slayer-Mugen-Train-Anime-Poster-Kimetsu-no-Yaiba-Mugen-Ressha-hen-Art.jpg" alt="4">
+		<div class="carousel-item">
+			<img class="evo-bottom-rounded evo-top-rounded" src="https://cdn.discordapp.com/attachments/884134436684328960/898636310691053578/recrutareeditori.png" alt="4" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
 				<h4><a href="https://a-evolution.ro/recrutare-editori-manga-t31.html" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Editori Manga</b></a></h4>
 			</div>
@@ -1543,22 +1543,30 @@
 	);
 	$categories = get_categories($args);
 	shuffle($categories);
-	$categories = array_slice($categories, 0, 1, false);
+	$ok = 0;
 	foreach ($categories as $category) {
-		$some = $category;
-		$image = get_field('cover', $some->taxonomy . '_' . $some->term_id);
-		
-		echo
-		'<div class = "col-12 p-2 text-center">
-              <a href = "' . get_category_link($category->term_id) . '">
-              <img src = "' . $image . '" alt="' . $category->name . '" class = "effect evo-bottom-rounded evo-top-rounded"/>
-              </a>
-              </div>';
+		if ($ok == 0){
+			$some = $category;
+			$image = get_field('cover', $some->taxonomy . '_' . $some->term_id);
+			$check = $some->cat_name;
+			if ($check != 'Anime' && $check != 'Filme' && $check != 'Serii Anime în curs de traducere' && $check != 'Manga' && $check != 'Serii Manga în curs de traducere' && $check != 'Serii Manga Terminate') {
+				echo
+				'<div class = "col-12 p-2 text-center">
+					  <a href = "' . get_category_link($category->term_id) . '">
+					  <img src = "' . $image . '" alt="' . $category->name . '" class = "effect evo-bottom-rounded evo-top-rounded"/>
+					  </a>
+					  </div>';
+				$ok++;
+			}
+		}
+		else
+		break;
+
 	}
 	?>
 </div>
 <div class="donare post-box  evo-bottom-rounded evo-top-rounded rounded-bottom p-3 my-2">
-<h4 class="text-evo text-left"><b><i class="fas fa-grip-lines-vertical"></i> Dă o bere la echipă 🍺</b></h4>
+	<h4 class="text-evo text-left"><b><i class="fas fa-grip-lines-vertical"></i> Dă o bere la echipă 🍺</b></h4>
 	<div class="text-center">
 		<a target="_blank" href="https://www.paypal.me/AnimeEvo"><img src="https://a-evolution.ro/images/Doneaza_Evo.png" /></a>
 	</div>
