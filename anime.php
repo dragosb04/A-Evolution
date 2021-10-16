@@ -8,7 +8,10 @@ error_reporting(E_ERROR | E_PARSE);
     <div class="container mb-5 mt-2">
         <div class="col-12 px-0">
             <div class="row">
-                <div class="up anime-descr col-12 px-5 my-3 pt-5 pb-3 evo-bottom-rounded evo-top-rounded text-center">
+                <div class="up anime-descr col-12 px-5 my-3 pt-5 pb-3 evo-bottom-rounded evo-top-rounded text-center"
+                style="<?php
+                echo "background : url('" . get_the_post_thumbnail_url() . "') no-repeat center; background-size: cover;"
+                ?>">
                     <div class="title-evo page-name text-evo pb-3"><b> <?php the_title(); ?></b>
                         <br><h5 class="up-text">Vă invităm să aruncați o privire peste seriile anime pe care vi le putem oferi!</h5>
                     </div>
@@ -20,7 +23,7 @@ error_reporting(E_ERROR | E_PARSE);
                         <input class="form-control border border-dark bg-search-bar" style="color: black;" id="myInput" type="text" placeholder="Caută serie după nume...">
                     </div>
                 </div>
-                <div class="post-box col-12 back-text p-2 my-3 evo-bottom-rounded evo-top-rounded">
+                <div class="post-box col-12 back-text-anime p-2 my-3 evo-bottom-rounded evo-top-rounded">
                     <div class="up px-1 py-2 text-left">
                         <span style="font-size: 1.75rem;" class=" text-evo"><b><i class="fas fa-grip-lines-vertical"></i> Serii în curs de traducere</b></span>
                     </div>
@@ -65,7 +68,7 @@ error_reporting(E_ERROR | E_PARSE);
                 }
 
                 ?>
-                <div class="post-box col-12 back-text p-2 my-3 evo-bottom-rounded evo-top-rounded">
+                <div class="post-box col-12 back-text-anime p-2 my-3 evo-bottom-rounded evo-top-rounded">
                     <div class="up px-1 py-2 text-left">
                         <span style="font-size: 1.75rem;" class=" text-evo"><b><i class="fas fa-grip-lines-vertical"></i> Serii terminate</b></span>
                     </div>

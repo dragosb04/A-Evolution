@@ -17,16 +17,13 @@
       </a>
     </div>
     <div class="about-post p-2">
-      <div class="text-light post-name"><b>
+      <div class="text-light post-name  mb-2"><b>
           <?php
           if (!empty(get_field('numele_postarii')))
             echo get_field('numele_postarii');
           else
             echo get_the_title();
           ?></b>
-      </div>
-      <div class="text-light text-center post-name py-2">
-        Vizionare plăcută!
       </div>
       <div class="pt-1 border-dark border-top text-muted extra-info text-right">
         <i class="fas fa-calendar"></i> <?php echo get_the_date() ?>&nbsp;|

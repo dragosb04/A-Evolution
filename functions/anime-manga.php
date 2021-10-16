@@ -21,9 +21,16 @@
                 $image = get_field('cover', $some->taxonomy . '_' . $some->term_id);
                 if ($check !== 'Anime' && $check !== 'Serii Anime Terminate' && $check !== 'Serii Anime în curs de traducere') {
                     echo
-                    '<div class = "col-4 p-2 text-center">
+                    '<div class = "col-4 p-0 text-center">
                   <a href = "' . get_category_link($category->term_id) . '">
-                  <img src = "' . $image . '" alt="' . $category->name . '" class = "effect nice-thumbnail evo-bottom-rounded evo-top-rounded"/>
+                  <div class="serie">
+                  <img src="' . $image . '" alt="' . $check . '" class=" evo-bottom-rounded evo-top-rounded col-12 p-1" width="100%"/>
+                  <div class="col-12  p-1 position-absolute" style="bottom: 0px; color: white;">
+                  <div class = " blur title-post p-2 text-center evo-bottom-rounded-back ">
+                  <b>' . $check . '</b>
+                  </div>
+                  </div>
+                  </div>
                   </a>
                   </div>';
                     $ok++;
@@ -56,9 +63,16 @@
                 $image = get_field('cover', $some->taxonomy . '_' . $some->term_id);
                 if ($check !== 'Manga' && $check !== 'Serii Manga în curs de traducere' && $check !== 'Serii Manga Terminate') {
                     echo
-                    '<div class = "col-4 p-2 text-center">
+                    '<div class = "col-4 p-0 text-center">
                   <a href = "' . get_category_link($category->term_id) . '">
-                  <img src = "' . $image . '" alt="' . $category->name . '" class = "effect nice-thumbnail evo-bottom-rounded evo-top-rounded"/>
+                  <div class="serie">
+                  <img src="' . $image . '" alt="' . $check . '" class=" evo-bottom-rounded evo-top-rounded col-12 p-1" width="100%"/>
+                  <div class="col-12  p-1 position-absolute" style="bottom: 0px; color: white;">
+                  <div class = " blur title-post p-2 text-center evo-bottom-rounded-back ">
+                  <b>' . $check . '</b>
+                  </div>
+                  </div>
+                  </div>
                   </a>
                   </div>';
                     $ok++;

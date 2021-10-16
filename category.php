@@ -73,7 +73,7 @@ b4st_main_before();
         <div class="p-2">
           <div class="row">
             <div class="col-12 mb-2 px-0">
-              <div class="up px-1 py-3 text-center text-lg-left text-sm-left text-md-left text-xl-left">
+              <div class="up px-1 py-3 text-left">
                 <h3 class=" text-evo"><b><i class="fas fa-grip-lines-vertical"></i> Listă de postări</b></h3>
               </div>
               <div class="col-12">

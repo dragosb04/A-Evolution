@@ -48,7 +48,7 @@ function b4st_comment($comment, $args, $depth)
               'max_depth' => $args['max_depth']
             ))
           ); ?>
-          <?php edit_comment_link('<span class="btn button-aevo text-light">' . __('<i class="fas fa-edit"></i> Editează comentariul', 'b4st') . '</span>', ' ', ''); ?>
+          <?php edit_comment_link('<span class="btn button-aevo text-light my-1">' . __('<i class="fas fa-edit"></i> Editează comentariul', 'b4st') . '</span>', ' ', ''); ?>
         </p>
       </div>
 

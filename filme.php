@@ -8,9 +8,13 @@ error_reporting(E_ERROR | E_PARSE);
     <div class="container mb-5 mt-2">
         <div class="col-12 px-0">
             <div class="row">
-                <div class="up anime-descr col-12 px-5 my-3 pt-5 pb-3 evo-bottom-rounded evo-top-rounded text-center">
+                <div class="up anime-descr col-12 px-5 my-3 pt-5 pb-3 evo-bottom-rounded evo-top-rounded text-center" 
+                style="<?php
+                echo "background : url('" . get_the_post_thumbnail_url() . "') no-repeat center; background-size: cover;"
+                ?>">
                     <div class="title-evo page-name text-evo pb-3"><b> <?php the_title(); ?></b>
-                        <br><h5>Îți plac filmele și animeurile? Încearcă filmele anime pe care ți le putem oferi!</h5>
+                        <br>
+                        <h5>Îți plac filmele și animeurile? Încearcă filmele anime pe care ți le putem oferi!</h5>
                     </div>
                     <h6 class="up-text text-left"><b> Caută film după nume ↴</b></h6>
                     <div class="input-group bg-search-bar evo-bottom-rounded evo-top-rounded">
@@ -20,7 +24,7 @@ error_reporting(E_ERROR | E_PARSE);
                         <input class="form-control border border-dark bg-search-bar" style="color: black;" id="myInput" type="text" placeholder="Caută serie după nume...">
                     </div>
                 </div>
-                <div class="post-box col-12 back-text p-2 my-3 evo-bottom-rounded evo-top-rounded">
+                <div class="post-box col-12 back-text-filme p-2 my-3 evo-bottom-rounded evo-top-rounded">
                     <div class="up px-1 py-2 text-left">
                         <span style="font-size: 1.75rem;" class=" text-evo"><b><i class="fas fa-grip-lines-vertical"></i> Filme</b></span>
                     </div>
@@ -38,8 +42,8 @@ error_reporting(E_ERROR | E_PARSE);
                         $image = 'https://shinobi-am.com/wp-content/uploads/2021/08/load.jpg';
                     }
                     $check = $some->cat_name;
-                    $car = get_category_parents($some)[0]; 
-                    ?>
+                    $car = get_category_parents($some)[0];
+                ?>
                 <?php
                     if ($car == 'F') {
                         $titlu = get_field('titlu_alternativ', $some->taxonomy . '_' . $some->term_id);

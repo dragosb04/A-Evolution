@@ -15,7 +15,7 @@
           <div class="col-12 text-center p-0">
             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="post_thumbnail" class="evo-bottom-rounded evo-top-rounded">
           </div>
-          <div class="col-12 pt-2 p-0 smaller-font">
+          <div class="col-12 pt-2 p-0 smaller-font text-center">
             <?php preview() ?>
           </div>
           <div class="text-light text-center py-3 p-0 post-descr"><b>
@@ -34,7 +34,7 @@
           <?php
           $link = get_field('link');
           if ($link) {
-            echo '<div class="col-12 p-sm-0 p-xs-0 p-lg-5 p-md-5 p-xl-5 p-lg-5 text-center"><a class="button" href="' . $link . '" target="_blank"><img src="https://cdn.discordapp.com/attachments/239836327636369408/866292386926034944/Buton-vizionare.png"/></a></div>';
+            echo '<div class="col-12 p-sm-0 p-xs-0 p-lg-5 p-md-5 p-xl-5 p-lg-5 text-center"><a class="button" href="' . $link . '" target="_blank"><img src="https://site.a-evolution.ro/wp-content/uploads/2021/10/Buton-vizionare.png"/></a></div>';
           }
           ?>
           <div class="col-12 px-0 text-center">
@@ -64,6 +64,11 @@
             } catch (\Exception $e) {
               //$e->getMessage();
             }
+            ?>
+          </div>
+          <div class="text-left about-comment">
+            <?php
+            pvc_post_views($post_id = 0, $echo = true);
             ?>
           </div>
           <div class="col-12 pt-3 p-0">

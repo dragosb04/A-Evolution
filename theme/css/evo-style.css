@@ -385,13 +385,17 @@ body {
 .photo-up {
     height: 100%;
     width: 100%;
-    background: url("https://cdn.discordapp.com/attachments/853179857294196736/894679641665724486/b1c1ffe40fdbc0dec7da77ad35dd84f7.jpg") no-repeat center;
+    background: url("https://cdn.discordapp.com/attachments/853179857294196736/898883152683102218/banner_sus.png") no-repeat center;
     filter: brightness(90%);
     background-size: cover;
 }
 
 .posts-box {
     background-color: #1d1e3a00;
+}
+
+.footer-disclaimer {
+    font-family: "Mulish", sans-serif;
 }
 
 .line-evo {
@@ -476,6 +480,11 @@ body {
 
 .post-box-acc {
     background-color: #151b1f;
+    font-size: 1.15rem;
+}
+
+.post-box-acc-2 {
+    background-color: #0f1214;
 }
 
 .bg-aevo-post {
@@ -499,8 +508,20 @@ body {
     font-size: 1rem;
 }
 
-.back-text {
-    background: url('https://cdn.discordapp.com/attachments/884134436684328960/898622194928713749/imagine_serii_terminate.png') no-repeat right;
+.back-text-manga {
+    background: url("https://site.a-evolution.ro/wp-content/uploads/2021/10/baner_serie-manga.png") no-repeat right;
+    width: 100%;
+    height: 100%;
+}
+
+.back-text-anime {
+    background: url("https://site.a-evolution.ro/wp-content/uploads/2021/10/imagine_anime.png") no-repeat right;
+    width: 100%;
+    height: 100%;
+}
+
+.back-text-filme {
+    background: url("https://site.a-evolution.ro/wp-content/uploads/2021/10/baner_serie-filme.png") no-repeat right;
     width: 100%;
     height: 100%;
 }
@@ -529,7 +550,14 @@ body {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.about-comment {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: uppercase;
 }
 
 .title-post {
@@ -582,10 +610,6 @@ a:hover {
 .title-evo {
     font-size: 3rem;
     color: white;
-}
-
-.anime-descr {
-    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c35b0e102808543.602f20eab5024.png');
 }
 
 .rand-descr {
