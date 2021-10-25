@@ -27,41 +27,53 @@ b4st_main_before();
             <div class="py-0">
               <div class="col-12">
                 <div class="row">
-                    <?php
-                    $term = get_queried_object();
-                    $episodes = get_field('episodes', $term);
-                    $genuri = get_field('genuri', $term);
-                    $myanimelist = get_field('myanimelist', $term);
-                    $status = get_field('status', $term);
-                    $perioada = get_field('perioada', $term);
-                    $torrent = get_field('torrent', $term);
-                    $studio = get_field('studio', $term);
-                    if ($episodes == true) {
-                      echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0"> Nr. episoade:  <b>' . $episodes . '</b></div>');
+                  <?php
+                  $term = get_queried_object();
+                  $episodes = get_field('episodes', $term);
+                  $capitole = get_field('capitole', $term);
+                  $volume = get_field('volume', $term);
+                  $genuri = get_field('genuri', $term);
+                  $myanimelist = get_field('myanimelist', $term);
+                  $status = get_field('status', $term);
+                  $perioada = get_field('perioada', $term);
+                  $torrent = get_field('torrent', $term);
+                  $studio = get_field('studio', $term);
+                  $forum = get_field('forum', $term);
+                  if ($forum == true) {
+                    echo ('<div class= "col-12 text-center p-0"><a href ="' . $forum . '" role = "button" target="_blank"><i class="fas fa-link"></i><i class="fas fa-external-link-square-alt"></i> Spre serie</a></div>');
+                  }
+                  if ($episodes == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center"> Nr. episoade:  <b>' . $episodes . '</b></div>');
+                  }
+                  if ($capitole == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center"> Nr. capitole:  <b>' . $capitole . '</b></div>');
+                  }
+                  if ($volume == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center"> Volume:  <b>' . $volume . '</b></div>');
+                  }
+                  if ($genuri == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center">Genuri: <b>' . $genuri . '</b></div>');
+                  }
+                  if ($perioada == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center">Perioada apariției: <b>' . $perioada . '</b></div>');
+                  }
+                  if ($studio == true) {
+                    echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center">Studio: <b>' . $studio . '</b></div>');
+                  }
+                  if ($status == true) {
+                    if ($status && in_array('Terminat', $status)) {
+                      echo '<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center">Status: <b>Terminat</b></div>';
+                    } else if ($status && in_array('Ongoing', $status)) {
+                      echo '<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center">Status:<b> În curs de traducere</b></div>';
                     }
-                    if ($genuri == true) {
-                      echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">Genuri: <b>' . $genuri . '</b></div>');
-                    }
-                    if ($perioada == true) {
-                      echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">Perioada apariției: <b>' . $perioada . '</b></div>');
-                    }
-                    if ($studio == true) {
-                      echo ('<div class= "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">Studio: <b>' . $studio . '</b></div>');
-                    }
-                    if ($status == true) {
-                      if ($status && in_array('Terminat', $status)) {
-                        echo '<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">Status: <b>Terminat</b></div>';
-                      } else if ($status && in_array('Ongoing', $status)) {
-                        echo '<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">Status:<b> Ongoing</b></div>';
-                      }
-                    }
-                    if ($myanimelist == true) {
-                      echo ('<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0"><a href ="' . $myanimelist . '" role = "button" target="_blank"><i class="fas fa-link"></i> MyAnimeList</a></div>');
-                    }
-                    if ($torrent == true) {
-                      echo ('<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0"><a href ="' . $torrent . '" role = "button" target="_blank"><i class="fas fa-download"></i> Link Torrent</a></div>');
-                    }
-                    ?>
+                  }
+                  if ($myanimelist == true) {
+                    echo ('<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center"><a href ="' . $myanimelist . '" role = "button" target="_blank"><i class="fas fa-link"></i> MyAnimeList</a></div>');
+                  }
+                  if ($torrent == true) {
+                    echo ('<div class = "col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0 text-xl-left text-lg-left text-md-left text-center"><a href ="' . $torrent . '" role = "button" target="_blank"><i class="fas fa-download"></i> Link Torrent</a></div>');
+                  }
+                  ?>
                 </div>
               </div>
             </div>

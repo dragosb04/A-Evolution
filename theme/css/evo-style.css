@@ -369,7 +369,7 @@ main {
 
 html,
 body {
-    background-color: #0b0c2a;
+    background-color: #200931;
     color: #dee2e6;
 }
 
@@ -379,13 +379,13 @@ body {
 }
 
 .bg-evo {
-    background-color: #713cb2;
+    background-color: #c23c32;
 }
 
 .photo-up {
     height: 100%;
     width: 100%;
-    background: url("https://cdn.discordapp.com/attachments/853179857294196736/898883152683102218/banner_sus.png") no-repeat center;
+    background: url("https://site.a-evolution.ro/wp-content/uploads/2021/10/Banner_halloween.png") no-repeat center;
     filter: brightness(90%);
     background-size: cover;
 }
@@ -403,7 +403,7 @@ body {
 }
 
 .text-evo {
-    color: #713cb2;
+    color: #c73f11;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -423,8 +423,8 @@ body {
 }
 
 .button-aevo {
-    background-color: #585696;
-    border-color: #585696;
+    background-color: #94344c;
+    border-color: #94344c;
     color: white;
     -webkit-transition: background-color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out;
@@ -433,8 +433,8 @@ body {
 }
 
 .button-aevo-comment {
-    background-color: #585696;
-    border-color: #585696;
+    background-color: #94344c;
+    border-color: #94344c;
     border: 0px;
     color: white;
     -webkit-transition: background-color 0.2s ease-out;
@@ -445,7 +445,7 @@ body {
 
 .button-aevo:hover,
 .button-aevo-comment:hover {
-    background-color: #434270;
+    background-color: #991939;
     cursor: pointer;
     color: white;
 }
@@ -475,7 +475,7 @@ body {
 }
 
 .post-box {
-    background-color: #08091d;
+    background-color: rgb(4, 4, 14);
 }
 
 .post-box-acc {
@@ -579,11 +579,11 @@ body {
 }
 
 a {
-    color: #585696;
+    color: #94344c;
 }
 
 a:hover {
-    color: #42407e;
+    color: #a02342;
     text-decoration: none;
 }
 

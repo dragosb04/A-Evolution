@@ -4,8 +4,8 @@
 <div class="up my-2 post-box p-3 evo-bottom-rounded evo-top-rounded text-left">
 	<h4 class="text-evo"><b><i class="fas fa-grip-lines-vertical"></i> Despre A-Evolution</b></h4>
 	<div class="text-center">
-	<img src="https://site.a-evolution.ro/wp-content/uploads/2021/10/logo-simona.png" alt="logo"/>
-	<br>
+		<img src="https://site.a-evolution.ro/wp-content/uploads/2021/10/logo-simona.png" alt="logo" />
+		<br>
 		Acest site este un proiect creat de fani pentru fanii de anime și manga subtitrate gratuit in română. Vă mulțumim că ați ales să vizionați seriile preferate pe site-ul nostru!
 	</div>
 </div>
@@ -994,18 +994,18 @@
 				</svg>
 			</a>
 			<a href="https://twitter.com/A_EvolutionRo" target="_blank">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="0 0 145 145" enable-background="new 0 0 145 145" xml:space="preserve">
-				<g>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="0 0 145 145" enable-background="new 0 0 145 145" xml:space="preserve">
 					<g>
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M78.697,142.71c0.688-0.335,3.291-0.457,4.172-0.904
+						<g>
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M78.697,142.71c0.688-0.335,3.291-0.457,4.172-0.904
 			C78.611,142.124,78.609,141.958,78.697,142.71z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M2.844,68.151c-0.533,2.65-0.222,4.596-0.04,6.245
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M2.844,68.151c-0.533,2.65-0.222,4.596-0.04,6.245
 			C2.604,72.563,3.155,69.833,2.844,68.151z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M70.75,142.642c0.148,0.102,0.453,0.17,0.766,0.154
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M70.75,142.642c0.148,0.102,0.453,0.17,0.766,0.154
 			c0.311-0.02,0.701-0.043,1.085-0.066c-0.374-0.071-0.609-0.117-0.835-0.16C71.232,142.51,70.764,142.507,70.75,142.642z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M75,142.628c-0.15,0.061-0.234,0.095-0.395,0.158
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M75,142.628c-0.15,0.061-0.234,0.095-0.395,0.158
 			c0.238,0.029,0.615,0.076,0.852,0.104c0.002-0.067,0.391-0.126,0.234-0.181C75.613,142.675,75.229,142.649,75,142.628z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M81.857,1.816c2.4,0.532,5.123,1.135,7.457,1.653
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M81.857,1.816c2.4,0.532,5.123,1.135,7.457,1.653
 			c0.891,0.269,1.865,0.563,2.84,0.857c2.074,0.294,4.092,1.632,5.984,2.17l-0.137-0.123c1.008,0.453,1.863,0.838,2.869,1.291
 			c0.896,0.288,1.959,1.018,2.84,1.348c1.551,0.887,3.164,1.663,4.512,2.574c0.775,0.525,1.338,0.91,1.85,1.078
 			c1.201,0.821,2.332,1.593,3.605,2.464c0.479,0.213,1.242,0.921,1.641,1.102c0.373,0.226,0.662,0.415,0.914,0.528
@@ -1015,9 +1015,9 @@
 			c-2.83-0.97-5.656-1.674-8.543-2.092c-0.764-0.109-1.201-0.083-1.229,0.075C80.617,1.502,81.105,1.683,81.857,1.816z
 			 M108.678,11.671c0.02,0.013,0.045,0.03,0.066,0.043c0.252,0.088,0.555,0.34,0.93,0.615c-0.387-0.255-0.713-0.471-0.93-0.615
 			c-0.025-0.008-0.051-0.024-0.074-0.029L108.678,11.671z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M132.295,114.087c-0.01,0.016-0.021,0.031-0.031,0.049
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M132.295,114.087c-0.01,0.016-0.021,0.031-0.031,0.049
 			c-0.037,0.055-0.061,0.119-0.1,0.174L132.295,114.087z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M141.9,84.151c-0.002-0.04,0.002-0.084,0-0.124
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M141.9,84.151c-0.002-0.04,0.002-0.084,0-0.124
 			c0.305-1.837,0.568-3.696,0.43-5.682c-0.066,0.144-0.113,0.304-0.164,0.46c0.02-0.4,0.029-0.811-0.023-1.16l-0.055-0.256
 			l0.029-0.339c0.02-1.536,0.037-3.073,0.055-4.696c-0.047-0.252-0.094-0.504-0.172-0.928c-0.422-4.411-1.195-9.008-2.383-13.311
 			c-0.123-0.324-0.271-0.715-0.365-0.957c-1.088-3.708-2.299-7.092-3.799-10.816c-0.145-0.21-0.385-0.561-0.529-0.771
@@ -1206,9 +1206,9 @@
 			c-0.561,0.63-1.072,1.252-1.561,1.865c-0.137,0.098-0.27,0.199-0.408,0.293C112.561,123.095,109.785,124.767,106.984,126.367z
 			 M109.99,125.815c0.061-0.035,0.297-0.175,0.297-0.175c0.09-0.024,0.182-0.077,0.273-0.128c0.135-0.078,0.258-0.146,0.352-0.164
 			c-0.117,0.031-0.234,0.099-0.352,0.164C110.381,125.618,110.18,125.743,109.99,125.815z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M20.466,27.607c-0.249,0.723-2.002,2.649-2.311,3.589
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M20.466,27.607c-0.249,0.723-2.002,2.649-2.311,3.589
 			C20.942,27.96,21.061,28.076,20.466,27.607z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M2.854,64.785c0.233-0.818,0.393-2.105,0.694-2.821
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M2.854,64.785c0.233-0.818,0.393-2.105,0.694-2.821
 			c0.771-1.553,0.845-3.868,1.533-5.73c0.146-0.426,0.345-1.008,0.541-1.581c0.481-0.952,0.739-2.472,1.297-3.471
 			c0.233-0.556,0.41-0.976,0.586-1.396c0.682-1.912,1.356-3.779,2.434-5.433l0.113-0.28l0.115-0.193
 			c1.781-2.93,3.159-5.51,4.474-7.918l1.126-1.68c0.351-0.592,0.628-1.13,0.524-1.203c-0.004-0.019-0.015-0.021-0.023-0.029
@@ -1220,25 +1220,25 @@
 			c0.155-0.534,0.129-1.378,0.239-2.067c0.005-0.235,0-0.465,0.039-0.689c0.229-0.531,0.295-1.139,0.369-1.976
 			c-0.069,0.272-0.138,0.491-0.209,0.683c-0.029,0.097-0.058,0.188-0.09,0.295c0,0,0,0,0.007-0.078
 			c0.03-0.061,0.056-0.143,0.083-0.217c0.075-0.242,0.144-0.468,0.209-0.683c0.334-0.89,0.242-2.597,0.595-3.632L2.854,64.785z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M126.824,26.692c-1.498-2.252-3.094-3.407-4.389-4.444
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M126.824,26.692c-1.498-2.252-3.094-3.407-4.389-4.444
 			C123.875,23.403,125.416,25.722,126.824,26.692z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M134.492,37.642c0.451,0.85,0.98,1.849,1.469,2.77
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M134.492,37.642c0.451,0.85,0.98,1.849,1.469,2.77
 			c0.266,0.445,0.541,0.995,0.719,1.197c0.424,0.471,0.26-0.123-0.055-0.746c-0.961-1.857-1.781-3.922-3.027-5.316
 			c-0.143-0.217-0.285-0.434-0.477-0.725c-0.4-0.573-0.824-1.141-0.967-1.051c-0.205-0.07,0.17,0.514,0.449,0.958
 			C133.26,35.748,133.885,36.889,134.492,37.642z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M26.135,22.037c-0.177,0.032-0.44,0.199-0.65,0.431
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M26.135,22.037c-0.177,0.032-0.44,0.199-0.65,0.431
 			c-0.206,0.233-0.466,0.526-0.721,0.814c0.315-0.214,0.514-0.348,0.704-0.477C25.887,22.47,26.22,22.142,26.135,22.037z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M23.14,25.051c0.063-0.149,0.099-0.233,0.165-0.391
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M23.14,25.051c0.063-0.149,0.099-0.233,0.165-0.391
 			c-0.188,0.147-0.486,0.381-0.675,0.528c0.046,0.049-0.188,0.367-0.038,0.294C22.672,25.452,22.962,25.197,23.14,25.051z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M136.496,107.466c-0.16,0.209-0.199-0.198-0.484,0.635
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M136.496,107.466c-0.16,0.209-0.199-0.198-0.484,0.635
 			c-0.055,0.172-0.061,0.359-0.021,0.379c0.125-0.126,0.32-0.418,0.52-0.719C136.66,107.446,136.705,107.181,136.496,107.466z" />
-						<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M142.115,60.999c0.215,0.143,0.008-0.783-0.074-1.3l-0.621-3.056
+							<path fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" d="M142.115,60.999c0.215,0.143,0.008-0.783-0.074-1.3l-0.621-3.056
 			c-0.256-0.557-0.402-0.519-0.387,0.093l0.602,3.042C141.805,60.444,141.99,61.021,142.115,60.999z" />
-						<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" points="109.557,16.475 109.857,16.757 109.713,16.531 		" />
-					</g>
-					<g>
-						<polygon fill="#FFFFFF" points="107.975,42.024 107.975,42.024 107.975,42.026 		" />
-						<path fill="#FFFFFF" d="M104.928,49.935c-1.686,0.466-3.014,0.393-3.014,0.393l0.055-0.32c1.568-1.255,5.525-5.107,6.047-6.91
+							<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#83C2EB" points="109.557,16.475 109.857,16.757 109.713,16.531 		" />
+						</g>
+						<g>
+							<polygon fill="#FFFFFF" points="107.975,42.024 107.975,42.024 107.975,42.026 		" />
+							<path fill="#FFFFFF" d="M104.928,49.935c-1.686,0.466-3.014,0.393-3.014,0.393l0.055-0.32c1.568-1.255,5.525-5.107,6.047-6.91
 			c0.229-0.779-0.041-1.047-0.043-1.073l-5.053,2.146l-4.229,1.907l0,0c-2.918-3.089-7.336-5.057-12.275-5.057
 			c-8.789,0-15.917,6.225-15.917,13.91c0,1.405,0.21,3.968,0.651,5.247c0,0.403,0.016-0.404,0,0
 			c-5.66-0.156-12.915-2.477-19.376-5.75C39.031,47.97,38.233,43.5,38.233,43.5c-2.002,2.125-3.034,9.163-1.006,14.68
@@ -1247,10 +1247,10 @@
 			l0,0c-4.403,3.386-9.512,5.448-14.988,5.448c-2.838,0-5.58-0.424-8.184-1.201c7.234,5.961,16.533,10.078,26.644,9.547
 			c26.823-1.41,41.965-24.468,42.686-47.112l0.035,0.046c0,0,1.256-0.627,3.943-3.314c2.686-2.687,4.357-5.83,4.357-5.83
 			S106.613,49.47,104.928,49.935z" />
-						<path fill="#FFFFFF" d="M107.975,42.026C107.994,42.454,107.975,42.067,107.975,42.026L107.975,42.026z" />
+							<path fill="#FFFFFF" d="M107.975,42.026C107.994,42.454,107.975,42.067,107.975,42.026L107.975,42.026z" />
+						</g>
 					</g>
-				</g>
-			</svg>
+				</svg>
 			</a>
 			<svg version="1.1" style="display: none;" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="0 0 145 145" enable-background="new 0 0 145 145" xml:space="preserve">
 				<g>
@@ -1514,25 +1514,25 @@
 		<div class="carousel-item active">
 			<img class="evo-bottom-rounded evo-top-rounded" src="https://site.a-evolution.ro/wp-content/uploads/2021/10/recrutaretraducatori.png" alt="1" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
-				<h4><a href="https://a-evolution.ro/viewtopic.php?t=28" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Traducători</b></a></h4>
+				<h4><a href="https://a-evolution.ro/viewtopic.php?t=28" target="_blank" style=" color: white;"><i class='fas fa-language'></i> <b>Recrutare Traducători</b></a></h4>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="evo-bottom-rounded evo-top-rounded" src="https://site.a-evolution.ro/wp-content/uploads/2021/10/recrutareverificatori.png" alt="2" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
-				<h4><a href="https://a-evolution.ro/viewtopic.php?t=29" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Verificatori</b></a></h4>
+				<h4><a href="https://a-evolution.ro/viewtopic.php?t=29" target="_blank" style=" color: white;"><i class='fas fa-edit'></i> <b>Recrutare Verificatori</b></a></h4>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="evo-bottom-rounded evo-top-rounded" src="https://site.a-evolution.ro/wp-content/uploads/2021/10/recrutareencoderi.png" class="d-block w-100" alt="3" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
-				<h4><a href="https://a-evolution.ro/viewtopic.php?t=30" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Encoderi</b></a></h4>
+				<h4><a href="https://a-evolution.ro/viewtopic.php?t=30" target="_blank" style=" color: white;"><i class='fas fa-cogs'></i> <b>Recrutare Encoderi</b></a></h4>
 			</div>
 		</div>
 		<div class="carousel-item">
 			<img class="evo-bottom-rounded evo-top-rounded" src="https://site.a-evolution.ro/wp-content/uploads/2021/10/recrutareeditori.png" alt="4" width="100%">
 			<div class="col-12 position-absolute blur py-4 text-center" style="bottom:0; font-size: 1rem;">
-				<h4><a href="https://a-evolution.ro/viewtopic.php?t=31" target="_blank" style=" color: white;"><i class="fas fa-mouse-pointer"></i> <b>Recrutare Editori Manga</b></a></h4>
+				<h4><a href="https://a-evolution.ro/viewtopic.php?t=31" target="_blank" style=" color: white;"><i class='fas fa-keyboard'></i> <b>Recrutare Editori Manga</b></a></h4>
 			</div>
 		</div>
 	</div>

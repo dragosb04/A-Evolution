@@ -51,6 +51,12 @@
     if (!is_null(get_field('titlu_alternativ', $term)))
       $about .= get_field('titlu_alternativ', $term) . ' ';
 
+    if (!is_null(get_field('capitole', $term)))
+      $about .= get_field('capitole', $term) . ' ';
+
+    if (!is_null(get_field('volume', $term)))
+      $about .= get_field('volume', $term) . ' ';
+
     if (!is_null(get_field('episodes', $term)))
       $about .= get_field('episodes', $term) . ' ';
 
@@ -102,8 +108,8 @@
   <meta property="og:url" content="' . get_bloginfo('url') . '" />
   <meta property="og:image" content="https://site.a-evolution.ro/wp-content/uploads/2021/03/cropped-logoc-2.png" />
   <meta name="twitter:image:src" content="https://site.a-evolution.ro/wp-content/uploads/2021/03/cropped-logoc-2.png">
-  <meta property="og:description" content="Anime si Manga Online tradus in Romana, anime rosub, anime in romana, manga in romana, manga rosub, online" />
-  <meta name="Description" content="Anime si Manga Online tradus in Romana, anime rosub, anime in romana, manga in romana, manga rosub, online">
+  <meta property="og:description" content="ANIME ONLINE ROSUB || MANGA ONLINE ROSUB" />
+  <meta name="Description" content="ANIME ONLINE ROSUB || MANGA ONLINE ROSUB">
   <meta name="keywords" content="">
   <script type="application/ld+json">
   {
@@ -143,7 +149,7 @@
   <nav id="site-navbar" class="navbar navbar-expand-md navbar-dark bg-evo" style="box-shadow: 0px 0px 7px 1px black; z-index: 1; top: 0%; font-size: 1.1rem;">
     <div class="container">
 
-      <a class="text-decoration-none text-white" href="<?php echo esc_url(home_url('/')); ?>"><img src="https://a-evolution.ro/ext/planetstyles/flightdeck/store/logoc.png" role="link" width="45px" height="45px" alt="aevo_logo"></a>
+      <a class="text-decoration-none text-white" href="<?php echo esc_url(home_url('/')); ?>"><img src="https://site.a-evolution.ro/wp-content/uploads/2021/10/A-Evolution_Logo-hallo.png" role="link" width="45px" height="45px" alt="aevo_logo"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
